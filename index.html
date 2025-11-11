@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Interactive pricing component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title-section">
+        <div class="title-section-text">
+          <h1 class="title">Simple, traffic-based pricing</h1>
+          <p class="title-description">
+            Sign-up for our 30-day trial. No credit card required.
+          </p>
+        </div>
+        <img
+          class="title-circle-img"
+          src="images/pattern-circles.svg"
+          alt="circles"
+        />
+      </div>
+
+      <div class="app-card">
+        <div class="slider-container">
+          <p class="pageviews">100k Pageviews</p>
+          <input
+            type="range"
+            min="0"
+            max="4"
+            value="2"
+            class="slider-phone"
+            id="pricing-slider-phone"
+          />
+          <p class="price"><span>$16.00</span> /month</p>
+        </div>
+
+        <input
+          type="range"
+          min="0"
+          max="4"
+          value="2"
+          class="slider"
+          id="pricing-slider"
+        />
+
+        <div class="billing-toggle">
+          <p>Monthly Billing</p>
+          <div class="switch">
+            <input type="checkbox" id="toggle-billing-time" />
+            <label for="toggle-billing-time"></label>
+          </div>
+          <p>Yearly Billing</p>
+          <p class="discount">25% discount</p>
+        </div>
+
+        <hr />
+
+        <div class="action-area">
+          <ul class="features">
+            <li class="feature">
+              <img src="images/icon-check.svg" alt="check" />
+              <p>Unlimited websites</p>
+            </li>
+            <li class="feature">
+              <img src="images/icon-check.svg" alt="check" />
+              <p>100% data ownership</p>
+            </li>
+            <li class="feature">
+              <img src="images/icon-check.svg" alt="check" />
+              <p>Email reports</p>
+            </li>
+          </ul>
+          <button class="trial-btn">Start my trial</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
