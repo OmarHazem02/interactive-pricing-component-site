@@ -2,6 +2,10 @@
 
 ![Design preview for the Interactive pricing component coding challenge](./design/desktop-preview.jpg)
 
+
+- **Live Site URL:** [Live site](https://omarhazem02.github.io/interactive-pricing-component-site/)
+
+  
 ## Welcome! 👋
 
 ---
@@ -10,7 +14,6 @@
 
 - [Overview](#overview)
   - [The Challenge](#the-challenge)
-  - [Links](#links)
 - [My Process](#my-process)
   - [Built With](#built-with)
   - [What I Learned](#what-i-learned)
@@ -45,10 +48,6 @@ Users should be able to:
 
 ---
 
-### Links
-
-- **Solution URL:** [Add solution URL here](https://your-solution-url.com)
-- **Live Site URL:** [Add live site URL here](https://your-live-site-url.com)
 
 ---
 
@@ -98,6 +97,7 @@ I want to keep improving my:
 
 
 - LinkedIn – [Omar Hazem](https://www.linkedin.com/in/omar-hazem-aa287a273/)
+
 
 
 
